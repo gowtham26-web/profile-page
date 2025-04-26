@@ -1,0 +1,113 @@
+
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+      background: #f0f2f5;
+      font-family: "Cormorant", serif;
+
+    }
+ 
+    .container1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #E5DBFF;
+        color: black;
+    }
+    .header2{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        margin-right: 20px;
+        font-size: larger; 
+    }
+    .header1{
+        font-size: large;
+        cursor: pointer;
+    }
+    .header1:hover{
+       color: #00584C;
+    }
+    
+    .container2 {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 1rem;
+      font-style: italic;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .project-card:hover {
+      transform: scale(1.03);
+    }
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .project-card .info {
+      padding: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background-color: #333;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+    .container3{
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+        align-items: center;
+    }
+    .middlepara{
+        font-size: larger;
+        font-style: italic;
+        align-items: center;
+        padding: 5px;
+    }
+  .container3 img{
+    border-radius: 120px;
+  }
+  .container4{
+    padding: 10px;
+    font-style: italic;
+  }
+
+  .skill-images img{
+    width: 50px;
+  }
+  .skill-images{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color: azure;
+  }
+  .skill-images p{
+    margin-right: 70px;
+    color: #333;
+    
+  }
+  .skill-images img:hover{
+    transform: scale(1.05);
+  }
